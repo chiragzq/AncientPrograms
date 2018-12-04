@@ -1,7 +1,7 @@
 <?php
 $servername = 'localhost';
 $username = 'root';
-$password = 'HunterPence';
+$password = 'im not that dumb';
 $database = 'Harvest';
 $id = $_GET['id'];
 if($id == "all") {
