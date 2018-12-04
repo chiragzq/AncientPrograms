@@ -2,7 +2,7 @@
 function checkLoggedIn($user, $pass) {
 	if(isset($_COOKIE['loggedin'])) return false;
 	$username = 'root';
-	$password = 'HunterPence';
+	$password = 'im not that dumb';
 	$database = 'localhost';
 	$table = 'Tables';
 	$conn = new mysqli($database, $username, $password, $table);
